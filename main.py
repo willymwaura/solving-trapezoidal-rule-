@@ -1,4 +1,6 @@
-
+a = float(input("Enter a value for a (lowe limit) : "))
+b = float(input("Enter a value for b:(upper limit) "))
+n = float(input("Enter number of intervals "))
 
 
 
@@ -11,7 +13,8 @@ def trapezoidal_rule(f, a, b, n):
     return h * s
 
 def f(x):
-    return x**2
+    return x**2 #set your f(x)according to you fuction ,,this is for y=x**2
 
-result = trapezoidal_rule(f, 0, 1, 10)
+
+result = trapezoidal_rule(f, a, b, n)
 print("the approximate area is ",result)

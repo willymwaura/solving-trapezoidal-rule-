@@ -2,3 +2,4 @@
 
 To use this function, you can define your own f function and call the trapezoidal_rule function with the appropriate arguments. For example, suppose we want to approximate the area under the curve y = x^2 between x = 0 and x = 1 using 10 intervals.
 Then we can call the trapezoidal_rule function
+This will output the approximate area under the curve, which should be 0.335
