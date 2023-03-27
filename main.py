@@ -1,6 +1,6 @@
 a = float(input("Enter a value for a (lowe limit) : "))
 b = float(input("Enter a value for b:(upper limit) "))
-n = float(input("Enter number of intervals "))
+n = int(input("Enter number of intervals "))
 
 
 
